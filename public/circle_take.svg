@@ -1,0 +1,21 @@
+<svg width="89" height="89" viewBox="0 0 89 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="44.5" cy="44.5" r="44.5" fill="url(#paint0_linear_943_35)"/>
+<circle cx="52" cy="45" r="27" fill="#D8D8D8"/>
+<circle cx="43" cy="45" r="27" fill="url(#paint1_linear_943_35)"/>
+<circle cx="37" cy="45" r="27" fill="#D8D8D8"/>
+<circle cx="28" cy="45" r="27" fill="url(#paint2_linear_943_35)"/>
+<defs>
+<linearGradient id="paint0_linear_943_35" x1="44.5" y1="0" x2="44.5" y2="89" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4590EB"/>
+<stop offset="1" stop-color="#296EEC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_943_35" x1="43" y1="18" x2="43" y2="72" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4590EB"/>
+<stop offset="1" stop-color="#296EEC"/>
+</linearGradient>
+<linearGradient id="paint2_linear_943_35" x1="28" y1="18" x2="28" y2="72" gradientUnits="userSpaceOnUse">
+<stop stop-color="#408AEB"/>
+<stop offset="1" stop-color="#2D73EB"/>
+</linearGradient>
+</defs>
+</svg>

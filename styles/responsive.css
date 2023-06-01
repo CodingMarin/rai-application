@@ -1,0 +1,70 @@
+/* Large Mobile :480px. */
+@media (max-width:479px){
+    .section-1 h2{font-size:2rem !important;font-weight:900; line-height: 2.72rem !important;}
+    .title-post .h{width: 40px !important;z-index: 999 !important; position: relative;}
+    .section-1 .btn-custom{width: 95%; margin: 12px 0px 0px;}
+    .section .header {height: 60px;overflow: visible}
+    .header {height: 60px}
+    .header_right {grid-column-gap: 16px}
+    .c {max-width: 100%;overflow: visible}
+    .nav-links {display: none}
+    .section.header.mobile {display: flex !important;}
+    .hero_platform{height: 215px !important;}
+}
+
+
+/* small mobile :768px. */
+@media (max-width:767px){
+    .header_right {
+        grid-column-gap: 16px
+    }
+}
+
+
+/* small mobile :991px. */
+@media (max-width:991px){
+    .section.header {
+        display: none !important;
+    }
+    .section.header.mobile {
+        z-index: 20 !important;
+        display:block !important;
+    }
+    .header_right {
+        grid-column-gap: 28px
+    }
+    .c {
+        width: 90% !important;
+        max-width: none;
+    }
+    .nav-links {
+        display: none
+    }
+    .logo {
+        margin-bottom: -1px
+    }
+    .hamburger-icon {
+        align-items: center;
+        display: flex
+    }
+    .hero_platform{
+        max-height: 470px !important;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width:768px){
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width:992px){
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width:1200px){
+
+}
