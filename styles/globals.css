@@ -361,7 +361,7 @@ a:hover{
 }
 
 .gap{
-  gap: 2%;
+  gap: 2% !important;
 }
 
 

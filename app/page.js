@@ -25,6 +25,7 @@ export default function Home() {
                   height={60}
                   priority
                 />
+
               </h2>
               <p className='ml-20 mr-20 pt-30 pb-30'>Acelera tu negocio y mejora la atención al cliente con nuestros chatbots inteligentes. Convierte conversaciones en resultados y lleva tu empresa al siguiente nivel. ¡Descubrelo ahora!</p>
               <div className="justify-content-md-center pb-60">
