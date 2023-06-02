@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Headersticky from './components/headersticky'
+import Card from './components/cardfeatures'
 
 export default function Home() {
   return (
@@ -55,60 +56,24 @@ export default function Home() {
             <h1 className='font-weight-bold'>Features</h1>
           </div>
           <div className='row gap justify-content-center'>
-            <div className='card col-lg-3 col-md-6 border' style={{ width: 288 }}>
-              <Image
-                className='card-img-top'
-                alt='card-img'
-                src='/picture-2.png'
-                width={296}
-                height={180}
-              />
-              <div className='card-body'>
-                <h5 className='card-title'>
-                  Booking engine
-                </h5>
-                <p className='font-small card-text text-secondary'>
-                  Some quick example text to build on the card title and make up the bulk of the cards content.
-                </p>
-                <a className='text-primary c-p'>Go somewhere -{'>'} </a>
-              </div>
-            </div>
-            <div className='card col-lg-3 col-md-6 border' style={{ width: 288 }}>
-              <Image
-                className='card-img-top'
-                alt='card-img'
-                src='/picture-1.png'
-                width={296}
-                height={180}
-              />
-              <div className='card-body'>
-                <h5 className='card-title'>
-                  Booking engine
-                </h5>
-                <p className='font-small card-text text-secondary'>
-                  Some quick example text to build on the card title and make up the bulk of the cards content.
-                </p>
-                <a className='text-primary c-p'>Go somewhere -{'>'} </a>
-              </div>
-            </div>
-            <div className='card col-lg-3 col-md-6 border' style={{ width: 288 }}>
-              <Image
-                className='card-img-top w-full'
-                alt='card-img'
-                src='/picture-3.png'
-                width={296}
-                height={180}
-              />
-              <div className='card-body'>
-                <h5 className='card-title'>
-                  Booking engine
-                </h5>
-                <p className='font-small card-text text-secondary'>
-                  Some quick example text to build on the card title and make up the bulk of the cards content.
-                </p>
-                <a className='text-primary c-p'>Go somewhere -{'>'} </a>
-              </div>
-            </div>
+            <Card
+              image='/picture-2.png'
+              alt='card-img'
+              title='Booking engine'
+              description='Some quick example text to build on the card title and make up the bulk of the cards content.'
+            />
+            <Card
+              image='/picture-1.png'
+              alt='card-img'
+              title='Booking engine'
+              description='Some quick example text to build on the card title and make up the bulk of the cards content.'
+            />
+            <Card
+              image='/picture-3.png'
+              alt='card-img'
+              title='Booking engine'
+              description='Some quick example text to build on the card title and make up the bulk of the cards content.'
+            />
           </div>
         </div>
       </section>
