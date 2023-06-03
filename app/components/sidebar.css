@@ -1,0 +1,24 @@
+
+.font-sm{
+    font-size: 13px;
+}
+
+.grey-600{
+    color: #666 !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.font-w-md{
+    font-weight: 500;
+}
+
+.divider-1{
+    width: auto;
+    height: 0.3rem;
+}
+.top-120{
+    top: 120px !important;
+}

@@ -53,7 +53,7 @@ export default function Header() {
                         </div>
                         <div className="header_right">
                             <div className="vertical-divider" />
-                            <a href="" className="nav-link">Documentos</a>
+                            <a href="/privacy-policy" className="nav-link">Terminoss & Condiciones</a>
                             <button className="btn-custom bg-dark rounded text-white">
                                 Panel de control
                             </button>

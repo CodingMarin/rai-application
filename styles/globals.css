@@ -3,7 +3,10 @@
 @import url(widgets.css);
 @import url(responsive.css);
 
-::-webkit-scrollbar{display: none;}
+.overflow-hidden{
+  overflow: scroll;
+}
+/* ::-webkit-scrollbar{display: none;} */
 
 :root {
   /*Colors*/
@@ -89,10 +92,13 @@ body{
 a{
   color: #000 !important;
   text-decoration: none !important;
+  transition: color .2s ease !important
 }
 
-a:hover{
-  color: #408AEB !important;
+@media (hover: hover) {
+  a:hover {
+      color:#68b5fb !important
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -297,9 +303,72 @@ a:hover{
   -moz-transition: all .5s ease;
   -ms-transition: all .5s ease;
   -o-transition: all .5s ease;
-  transition: all .5s ease;
+  transition: all .5s ease !important;
   opacity: .7;
   margin-bottom: 12px;
+}
+
+.card-chat > button::before{
+  animation:shadow-pulse 1s infinite;
+}
+
+.card-chat > button{
+  content:"Chat";
+  background-color:var(--color-primary);
+  width:3.5rem;
+  height:3.5rem;
+  border-radius:50%;
+  position:fixed;
+  margin-top:-3px;
+  display: block;
+  bottom: 3rem;
+  right: 20px;
+  border: none;
+  animation:shadow-pulse 1s infinite;
+}
+
+.card-chat{
+  border-radius: 5px;
+  background-color: white;
+}
+
+.chat-box {
+  bottom: 6rem;
+  right: 20px;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #7C93F6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.chat-body {
+  padding: 10px;
+}
+
+.text-900{
+  font-weight: 800;
+}
+
+.policy-privacy{
+  font-family: var(--font-poppins);
+}
+
+.close-chat-button {
+  background-color: #f44336;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 .logo:hover{
@@ -361,9 +430,8 @@ a:hover{
 }
 
 .gap{
-  gap: 2% !important;
+  gap: 2%;
 }
-
 
 .section-1{
   /* background: linear-gradient(
