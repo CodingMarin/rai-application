@@ -120,6 +120,46 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <footer class="pt-50 pb-20 bg-grey align-self-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+              <div class="sidebar-widget wow fadeInUp animated mb-30">
+                <div class="widget-header-2 position-relative mb-30">
+                  <p><strong>Sobre Nosotros</strong></p>
+                </div>
+                <div class="text-secondary">
+                  <p>Start writing, no matter what. The water does not flow until the faucet is turned on.</p>
+                  <p><strong class="color-black">Address</strong>123 Main Street New York, NY 10001</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="sidebar-widget widget_categories wow fadeInUp animated mb-30" data-wow-delay="0.1s">
+                <div class="widget-header-2 position-relative mb-30">
+                  <p><strong>Legal</strong></p>
+                </div>
+                <ul class="font-small">
+                  <li class="cat-item cat-item-2 text-secondary"><a href="#" className='text-secondary'>Ayuda y Soporte</a></li>
+                  <li class="cat-item cat-item-4 text-secondary"><a href="/privacy-policy" className='text-secondary'>Terminos y Condiciones</a></li>
+                  <li class="cat-item cat-item-7 text-secondary"><a href="#" className='text-secondary'>Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="sidebar-widget widget_tagcloud wow fadeInUp animated mb-30" data-wow-delay="0.2s">
+                <div class="widget-header-2 position-relative mb-30">
+                  <p><strong>Creditos</strong></p>
+                </div>
+                <p class="float-md-left font-small text-muted">© 2023, Rai - ChatBot </p>
+                <p class="float-md-right font-small text-muted">
+                  Diseñado por <a href="" target="_blank">Alexander Marin</a> | Todos los derechos reservados
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
       <Preloader></Preloader>
     </main>
   )
